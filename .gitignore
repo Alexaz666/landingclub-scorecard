@@ -1,0 +1,17 @@
+# Ignore raw data files
+data/
+
+# Ignore trained models
+models/
+
+# Ignore generated outputs (plots, reports, etc.)
+outputs/
+
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Python virtual environment (optional)
+venv/
