@@ -1,0 +1,17 @@
+annual_inc_woe
+fico_range_low_woe
+inq_last_6mths_woe
+mths_since_rcnt_il_woe
+bc_open_to_buy_woe
+mo_sin_old_rev_tl_op_woe
+mo_sin_rcnt_tl_woe
+mort_acc_woe
+mths_since_recent_bc_woe
+num_rev_tl_bal_gt_0_woe
+emp_length_num_woe
+home_ownership_grouped_woe
+verification_status_woe
+addr_state_grouped_woe
+purpose_woe
+F_OVERLIMIT_woe
+f_collections_12_mths_ex_med_gt0_woe
