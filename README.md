@@ -4,6 +4,8 @@
 ## 🎯 Objective
 Simulate the development of a traditional credit scorecard to assess loan default risk using open-sourced LendingClub personal loan application data. The project mimics real-world model development by applying WOE binning, IV-based feature selection, regularised logistic regression, and out-of-time (OOT) validation.
 
+<br></br>
+
 ## ⚙️ Key Features
 - 📊 **WOE/IV binning** and transformation
 - 📦 **Logistic regression scorecard** with interpretable features
@@ -11,6 +13,7 @@ Simulate the development of a traditional credit scorecard to assess loan defaul
 - 🧪 Developed using **SageMaker** for scale, reproducibility, and future extensibility
 - 🪜 Designed with **business decisioning** in mind (cutoff-ready)
 
+<br></br>
 
 ## 📁 Project Structure
 │
@@ -24,6 +27,7 @@ Simulate the development of a traditional credit scorecard to assess loan defaul
 ├── requirements.txt            # Required packages
 ├── README.md                   # Project overview
 
+<br></br>
 
 ## 📦 Dataset
 - **Target**: Loan default flag (`GB_FLAG`) derived from `loan_status`
@@ -31,7 +35,7 @@ Simulate the development of a traditional credit scorecard to assess loan defaul
 - **Development sample**: 2012–2016
 - **Out-of-time test**: 2017–2018
 
----
+<br></br>
 
 ## 🔨 Feature Engineering & Selection
 - Initial candidate features: 103
@@ -39,7 +43,7 @@ Simulate the development of a traditional credit scorecard to assess loan defaul
 - 3 leakage-prone variables removed (`int_rate`, `loan_amnt`, `term`)
 - Final model: 17 predictors selected via L1 regularisation
 
----
+<br></br>
 
 ## 🧪 Model Performance (OOT)
 
@@ -53,6 +57,8 @@ Simulate the development of a traditional credit scorecard to assess loan defaul
 
 The final model performs comparably to the benchmark while avoiding pricing-based leakage variables, improving interpretability and generalisability.
 
+<br></br>
+
 ## 🔍 Top Predictive Features
 
 - `fico_range_low`: Lower FICO = higher default risk  
@@ -63,8 +69,7 @@ The final model performs comparably to the benchmark while avoiding pricing-base
 
 📓 See full model development in [`notebooks/03_LogisticRegression.ipynb`](notebooks/03_LogisticRegression.ipynb)
 
-
----
+<br></br>
 
 ## 🧮 Final Scorecard
 
@@ -80,6 +85,7 @@ Each applicant receives a final score based on WOE-transformed input variables a
 
 📎 The full scorecard and score-to-bin mapping are available in [`notebooks/04_Scorecard_build.ipynb`](notebooks/04_Scorecard_build.ipynb)
 
+<br></br>
 ---
 
 ## 🛠️ Future Enhancements
@@ -87,9 +93,9 @@ Each applicant receives a final score based on WOE-transformed input variables a
 - Add a tree-based challenger model (e.g., XGBoost)
 - Develop automated cutoff & limit strategy module
 - Simulate profit/loss impact using assumptions
+<br></br>
 
 ---
-
 ## 🚀 Setup
 
 ```bash
