@@ -16,9 +16,10 @@ Simulate the development of a traditional credit scorecard to assess loan defaul
 <br></br>
 
 ## 📁 Project Structure
+```
 │
-├── data/                         # Raw, interim, and processed datasets
-├── dictionaries/                # Metadata, feature dictionary, binning summary
+├── data/                       # Raw, interim, and processed datasets
+├── dictionaries/               # Metadata, feature dictionary, binning summary
 ├── models/logistic/            # Final model, coefficients, parameters
 ├── notebooks/                  # Jupyter notebooks for EDA, transformation, modelling
 ├── outputs/                    # Charts, lift/gain, PSI, etc.
@@ -26,6 +27,7 @@ Simulate the development of a traditional credit scorecard to assess loan defaul
 ├── src/                        # (Optional) Source code and modules
 ├── requirements.txt            # Required packages
 ├── README.md                   # Project overview
+```
 
 <br></br>
 
