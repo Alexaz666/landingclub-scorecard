@@ -42,7 +42,7 @@ Simulate the development of a traditional credit scorecard to assess loan defaul
 ## 🔨 Feature Engineering & Selection
 - Initial candidate features: 103
 - WOE binning + IV filtering
-- 3 leakage-prone variables removed (`int_rate`, `loan_amnt`, `term`)
+- 42 Leakage-prone/ post-funding variables removed including `int_rate`, `loan_amnt`, `term`, `grade`, `sub_grade`
 - Final model: 17 predictors selected via L1 regularisation
 
 <br></br>
